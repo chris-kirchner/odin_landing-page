@@ -1,0 +1,48 @@
+* {
+  font-family: Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+}
+
+li {
+  list-style-type: none;
+}
+
+.header {
+  background: #1F2937;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 100px;
+}
+
+.header .logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #F9FAF8;
+  transition: 1s;
+}
+
+.header .links {
+  height: 100%;
+  display: flex;
+  gap: 20px;
+}
+
+.header .links a {
+  font-size: 18px;
+  color: #E5E7EB;
+  transition: 1s;
+}
+
+.header a:hover {
+  color: rgb(255, 198, 41);
+}
