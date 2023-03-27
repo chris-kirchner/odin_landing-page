@@ -1,5 +1,5 @@
 * {
-  font-family: Tahoma, sans-serif;
+  font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -22,7 +22,7 @@ li {
 
 .header .logo {
   font-size: 24px;
-  font-weight: bold;
+  font-weight: 900;
   color: #F9FAF8;
   transition: 1s;
   flex: 0 0 auto;
@@ -58,7 +58,7 @@ li {
 .hero .left .text-main {
   color: #F9FAF8;
   font-size: 48px;
-  font-weight: bold;
+  font-weight: 900;
   margin-bottom: 10px;
   line-height: 100%;
 }
