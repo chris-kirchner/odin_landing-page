@@ -55,7 +55,7 @@ li {
 }
 
 .hero .left {
-  max-width: 50%;
+  width: 50%;
   flex: 1;
 }
 
@@ -129,6 +129,7 @@ li {
 }
 
 .info .box .image {
+  background: #E5E7EB;
   border: 4px solid #3882F6;
   border-radius: 12px;
   height: 140px;
