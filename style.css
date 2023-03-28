@@ -168,7 +168,6 @@ li {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* padding: 100px; */
 }
 
 .cta .background {
@@ -206,4 +205,18 @@ li {
 
 .cta button:active {
   background: #2a5baa;
+  border: 2px solid #c5c5c5;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: #1F2937;
+  padding: 30px;
+}
+
+.footer .text {
+  color:#F9FAF8;
 }
