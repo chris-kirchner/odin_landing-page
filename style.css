@@ -49,6 +49,7 @@ li {
   background: #1F2937;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   padding: 100px;
   gap: 40px;
 }
@@ -87,7 +88,7 @@ li {
   border: 0;
   color: #F9FAF8;
   font-size: 14px;
-  font-weight: bold;
+  font-weight: 900;
   padding: 8px 30px;
   border-radius: 7px;
 }
@@ -161,4 +162,48 @@ li {
   font-size: 24px;
   font-weight: 900;
   text-align: right;
+}
+
+.cta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* padding: 100px; */
+}
+
+.cta .background {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+  background: #3882F6;
+  border-radius: 12px;
+  padding: 50px 100px;
+  margin: 100px;
+  width: 100%;
+}
+
+.cta .background .text .line1 {
+  color: #F9FAF8;
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.cta .background .text .line2 {
+  color: #E5E7EB;
+}
+
+.cta button {
+  align-self: center;
+  background: #3882F6;
+  border: 2px solid #F9FAF8;
+  color: #F9FAF8;
+  font-size: 14px;
+  font-weight: 900;
+  padding: 7px 30px;
+  border-radius: 7px;
+}
+
+.cta button:active {
+  background: #2a5baa;
 }
