@@ -215,7 +215,7 @@ li {
   justify-content: center;
   gap: 8px;
   background: #1F2937;
-  padding: 30px;
+  padding: 30px 100px;
 }
 
 .footer .text {
